@@ -1,0 +1,14 @@
+name: linter
+on:
+  push:
+    branches: [main]
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Run Linter
+        run: make lint
