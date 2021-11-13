@@ -1,4 +1,7 @@
 #!/usr/bin/env node.
-console.log("Welcome to the Brain Games!");
-import { greet } from "/home/artem/frontend-project-lvl1/src/cli.js";
+
+// eslint-disable-next-line import/no-absolute-path
+import greet from '/home/artem/frontend-project-lvl1/src/cli.js';
+
+console.log('Welcome to the Brain Games!');
 greet();
