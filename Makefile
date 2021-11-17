@@ -1,7 +1,7 @@
 install: # установить зависимости
 	npm ci
 
-brain-games: # запустить приложение
+brain-games: # запустить приложение brain-games
 	node bin/brain-games.js
 
 publish: #публикация
@@ -9,3 +9,6 @@ publish: #публикация
 
 lint: # запуск eslint
 	npx eslint --fix .
+
+brain-even: # запустить приложение "Проверка на четность"
+	node bin/brain-even.js
