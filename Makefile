@@ -12,3 +12,6 @@ lint: # запуск eslint
 
 brain-even: # запустить приложение "Проверка на четность"
 	node bin/brain-even.js
+
+brain-calc: # запустить приложение "Калькулятор"
+	node bin/brain-calc.js
